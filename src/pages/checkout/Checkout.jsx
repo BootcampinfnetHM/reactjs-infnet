@@ -15,7 +15,7 @@ const Checkout = () => {
 
     <Grid container spacing={2} >
 
-        <Grid item xs={12} md={12} lg={1} xl={1} sx={{bgcolor: 'blue', display: 'flex', justifyContent: 'center'}}>
+        <Grid item xs={12} md={12} lg={1} xl={1} sx={{bgcolor: 'green', display: 'flex', justifyContent: 'center'}}>
 
         </Grid>
         <Grid item xs={12} md={12} lg={7} xl={7} sx={{bgcolor: 'red', height: '700px'}}>
