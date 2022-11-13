@@ -1,0 +1,10 @@
+#box-register {
+    background-image: url('../../utils/imgs/login-left-image.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+#box-register:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+}

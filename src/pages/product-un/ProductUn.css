@@ -1,0 +1,74 @@
+@media (max-width: 900px) {
+    #div-display-produto-un {
+        height: 300px !important;
+    }
+}
+
+* {
+
+}
+
+
+
+#div-display-produto-un {
+    background-image: url("../../utils/imgs/galaxy-bg-test2.png");
+}
+
+#main-div-img-un-produto {
+    background-color: rgb(235, 235, 235);
+}
+
+#main-img-un-produto {
+    box-shadow: 1px 1px 25px rgb(146, 146, 146);
+}
+
+#imagens-lateral-un-produto {
+    box-shadow: 1px 1px 100px rgba(17, 0, 255, 0.219);
+    z-index: 99;
+}
+/* ////////////////////////// */
+
+#input-qtd-un-produtos input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+#input-qtd-un-produtos {
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/* ////////////////////////////////////////////////// */
+
+#container-infos-product-un {
+    padding: 30px 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#container-infos-product-un * {
+    font-family: 'montserrat';
+    margin: 10px 0px;
+}
+
+.buttons-cart-buynow {
+    padding: 10px 20px;
+}
+
+.buttons-cart-buynow * {
+    margin: 0px !important;
+    
+}
+
+#button-buynow {
+    margin-right: 30px;
+}
+
+
+
+
+

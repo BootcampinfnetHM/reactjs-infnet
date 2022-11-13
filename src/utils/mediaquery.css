@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+    html {
+        padding-top: 82px;
+    }
+
+    #box-image-login {
+        display: none;
+    }
+    div#box-image-login-mobile {
+        display: block !important;
+        z-index: 999 !important;
+
+
+    }
+
+    ul#menu-area {
+        display: none;
+    }
+
+    ul#menu-area-mobile {
+        display: block;
+        position: fixed;
+        z-index: 999;;
+    }
+
+
+    div#main-home > div {
+        padding-right: 0px;
+    }
+
+    #coluna-esquerda-home {
+        display: none;
+    }
+
+    #box-coluna-direita-home {
+        display: none;
+    }
+
+
+}
