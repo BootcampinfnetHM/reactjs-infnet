@@ -3,8 +3,6 @@ import './App.css';
 import SearchIcon from '@mui/icons-material/Search';
 import { LinearProgress } from '@mui/material';
 
-
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,7 +17,9 @@ const Home = lazy(() => import("../src/pages/home/Home") )
 const Login = lazy(() => import("../src/pages/login/Login") )
 const Products = lazy(() => import("./pages/products/Products") )
 const ProductUn = lazy(() => import("./pages/product-un/ProductUn"))
-const Checkout = lazy(() => import("./pages/checkout/Checkout"))
+const CheckoutCard = lazy(() => import("./pages/checkout/checkout-card/CheckoutCard"))
+const CheckoutShipping = lazy(() => import("./pages/checkout/checkout-shipping/CheckoutShipping"))
+const CheckoutConfirmation = lazy(() => import("./pages/checkout/checkout-confirmation/CheckoutConfirmation"))
 const Register = lazy(() => import("./pages/register/Register"))
 const Cart = lazy(() => import("./pages/cart/Cart"))
 const Profile = lazy(() => import("../src/pages/profile/Profile") )
@@ -34,9 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      
       <Router>
-
       <ul id="menu-area-mobile"></ul>
       
       <ul id="menu-area">
@@ -85,7 +83,9 @@ function App() {
           <Route exact path="/register" element={<Register/>} />
           <Route exact path="/profile" element={<Profile/>} />
           <Route exact path="/cart" element={<Cart/>} />
-          <Route exact path="/checkout" element={<Checkout/>} />
+          <Route exact path="/checkoutCard" element={<CheckoutCard/>} />
+          <Route exact path="/checkoutShipping" element={<CheckoutShipping/>} />
+          <Route exact path="/CheckoutConfirmation" element={<CheckoutConfirmation/>} />
           <Route path="/profile/:id/:slug" element={<Profile/>}/>
           <Route path="*" element={<NotFound/>} />
         </Routes>

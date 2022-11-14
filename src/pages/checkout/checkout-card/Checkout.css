@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../../../utils/fonts/Futura\ Std\ Extra\ Bold.ttf');
+}
+
+*{
+    font-family: 'Montserrat';
+}
+
+#gridtest {
+    background-image: url('../../../utils/imgs/img-checkout.jpg');
+}
+
+html {
+    background-color: '#F8F8F8' !important;
+}
+
+#paypallogo {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://thumbs.dreamstime.com/b/logotipo-editorial-paypal-ilustrativo-em-fundo-branco-%C3%ADcone-de-logotipos-%C3%ADcones-definir-m%C3%ADdias-sociais-banner-plano-vetores-svg-210441968.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#card-display {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4305/4305369.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 250px;
+    height: 280px;
+    margin-right: 30px;
+}
+
+#add-card-display {
+    margin-top: 45px;
+    width: 250px;
+    height: 180px;
+    border: 2px dashed grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-card-display:hover {
+    background-color: rgba(211, 211, 211, 0.267);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}

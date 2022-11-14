@@ -203,7 +203,7 @@ const Cart = () => {
                             {precoComDesconto.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}                                   
                             </span>
                         </li>
-                       <Link to="/checkout" style={{textDecoration: 'none'}} >
+                       <Link to="/checkoutCard" style={{textDecoration: 'none'}} >
                             <Button variant="contained" fullWidth>PAGAR</Button>
                        </Link>
 
